@@ -18,3 +18,11 @@ print(my_name[0:])
 print(my_name[:3])
 print(my_name[:])
 
+
+# \""
+# \'
+# \\
+# \n
+course = "Python \"Programming"
+print(course)
+
