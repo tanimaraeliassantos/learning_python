@@ -26,3 +26,9 @@ print(my_name[:])
 course = "Python \"Programming"
 print(course)
 
+my_last_name = "Elias"
+
+full = f"{my_name} {my_last_name}"
+
+print(full)
+
