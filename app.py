@@ -53,3 +53,6 @@ print(course.replace("P", "j"))
 print("Pro" in course)
 # finds and shows bollean for characters that are not on variable
 print("swift" not in course)
+
+#Video is here: https://www.youtube.com/watch?v=K5KVEU3aaeQ&t=691s
+#I've stopped at the 54:00 mark.
