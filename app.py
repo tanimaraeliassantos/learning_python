@@ -18,6 +18,7 @@ print(my_name[0:])
 print(my_name[:3])
 print(my_name[:])
 
+# Escape sequences
 
 # \""
 # \'
@@ -26,9 +27,29 @@ print(my_name[:])
 course = "Python \"Programming"
 print(course)
 
+# Concatenation
+
 my_last_name = "Elias"
 
 full = f"{my_name} {my_last_name}"
 
 print(full)
 
+# Methods
+course = "   Python Programming"
+# print everything in uppercase
+print(course.upper())
+# print everything in lowercase
+print(course.lower())
+# print every word titlecased
+print(course.title())
+# removes space (lstrip for spaces to the left, rstrip for spaces to the right)
+print(course.strip())
+# finds characters index
+print(course.find("Pro"))
+# finds and replaces characters
+print(course.replace("P", "j"))
+# finds and shows boolean for characters
+print("Pro" in course)
+# finds and shows bollean for characters that are not on variable
+print("swift" not in course)
