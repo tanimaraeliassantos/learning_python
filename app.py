@@ -69,3 +69,8 @@ print(10 + 3)
 print(10 - 3)
 print(10 * 3)
 print(10 / 3)
+#if we need an integer for the result of the division we use two slashes
+print(10 // 3)
+print(10 % 3)
+#exponent operator
+print(10 ** 3)
