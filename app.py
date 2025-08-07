@@ -79,3 +79,20 @@ print(10 ** 3)
 x = 10
 x = x + 3
 x =+ 3
+
+
+# Functions to work with numbers
+import math
+print(round(2.9))
+print(abs(-2.9))
+
+print(math.ceil(2.2))
+
+x = input(" x: ")
+# y = x + 1
+#Error when running code because two objects are differently typed.
+print(type(x))
+
+#Fixing the error
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
