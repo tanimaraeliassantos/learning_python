@@ -56,3 +56,16 @@ print("swift" not in course)
 
 #Video is here: https://www.youtube.com/watch?v=K5KVEU3aaeQ&t=691s
 #I've stopped at the 54:00 mark.
+
+#Numbers
+#Three types of numbers: integers, floats, complex numbers.
+
+x = 1
+x = 1.1
+x = 1 + 2j # a + bi
+
+#Math operations
+print(10 + 3)
+print(10 - 3)
+print(10 * 3)
+print(10 / 3)
