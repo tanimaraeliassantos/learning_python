@@ -127,4 +127,6 @@ if temperature > 30:
     print("Drink water")
 elif temperature > 20:
     print("It's nice")
+else:
+    print("It's cold")
 print("Done")
