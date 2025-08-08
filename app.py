@@ -105,3 +105,13 @@ print(bool(0))
 
 #Primitive types in Python
 # Strings, Numbers and Booleans
+
+#Fundamentals of programming
+#Comparison operators
+print(10 > 3)
+print(10 >= 3)
+print(10 < 20)
+print(10 <= 20)
+print(10 == 10)
+print(10 == "10")
+print(10 != "10")
