@@ -130,3 +130,12 @@ elif temperature > 20:
 else:
     print("It's cold")
 print("Done")
+
+#Cleaner code
+age = 22
+if age >= 18:
+    message = "Eligible"
+else:
+    message = "Not eligible"
+
+print(message)
