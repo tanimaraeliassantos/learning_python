@@ -1,5 +1,6 @@
 # app.py
 
+import math
 my_name = "Tanimara"
 print("Hello and welcome " + my_name + "!")
 
@@ -54,35 +55,34 @@ print("Pro" in course)
 # finds and shows bollean for characters that are not on variable
 print("swift" not in course)
 
-#Video is here: https://www.youtube.com/watch?v=K5KVEU3aaeQ&t=691s
-#I've stopped at the 54:00 mark.
+# Video is here: https://www.youtube.com/watch?v=K5KVEU3aaeQ&t=691s
+# I've stopped at the 54:00 mark.
 
-#Numbers
-#Three types of numbers: integers, floats, complex numbers.
+# Numbers
+# Three types of numbers: integers, floats, complex numbers.
 
 x = 1
 x = 1.1
-x = 1 + 2j # a + bi
+x = 1 + 2j  # a + bi
 
-#Math operations
+# Math operations
 print(10 + 3)
 print(10 - 3)
 print(10 * 3)
 print(10 / 3)
-#if we need an integer for the result of the division we use two slashes
+# if we need an integer for the result of the division we use two slashes
 print(10 // 3)
 print(10 % 3)
-#exponent operator
+# exponent operator
 print(10 ** 3)
 
-#augmented assignment operator
+# augmented assignment operator
 x = 10
 x = x + 3
-x =+ 3
+x = + 3
 
 
 # Functions to work with numbers
-import math
 print(round(2.9))
 print(abs(-2.9))
 
@@ -97,17 +97,17 @@ print(math.ceil(2.2))
 # y = int(x) + 1
 # print(f"x: {x}, y: {y}")
 
-#Falsy values (in a boolean value it will show FALSE)
+# Falsy values (in a boolean value it will show FALSE)
 # Empty strings " "
 # 0
 # None
 print(bool(0))
 
-#Primitive types in Python
+# Primitive types in Python
 # Strings, Numbers and Booleans
 
-#Fundamentals of programming
-#Comparison operators
+# Fundamentals of programming
+# Comparison operators
 print(10 > 3)
 print(10 >= 3)
 print(10 < 20)
@@ -119,3 +119,10 @@ print("bag" > "apple")
 print("bag" == "BAG")
 print(ord("b"))
 print(ord("B"))
+
+# Conditional statements
+temperature = 35
+if temperature > 30:
+    print("It's warm")
+    print("Drink water")
+print("Done")
