@@ -131,11 +131,7 @@ else:
     print("It's cold")
 print("Done")
 
-#Cleaner code
+# Cleaner code
 age = 22
-if age >= 18:
-    message = "Eligible"
-else:
-    message = "Not eligible"
-
+message = "Eligible" if age >= 18 else "Not eligible"
 print(message)
