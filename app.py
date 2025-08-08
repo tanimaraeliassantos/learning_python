@@ -88,11 +88,20 @@ print(abs(-2.9))
 
 print(math.ceil(2.2))
 
-x = input(" x: ")
-# y = x + 1
-#Error when running code because two objects are differently typed.
-print(type(x))
+# x = input(" x: ")
+# # y = x + 1
+# #Error when running code because two objects are differently typed.
+# print(type(x))
 
-#Fixing the error
-y = int(x) + 1
-print(f"x: {x}, y: {y}")
+# #Fixing the error
+# y = int(x) + 1
+# print(f"x: {x}, y: {y}")
+
+#Falsy values (in a boolean value it will show FALSE)
+# Empty strings " "
+# 0
+# None
+print(bool(0))
+
+#Primitive types in Python
+# Strings, Numbers and Booleans
