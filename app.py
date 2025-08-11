@@ -173,10 +173,15 @@
 # # Is the same as:
 # if 18 <= age < 65:
 #     print("Eligible")
+
 # Quiz: what is gonna show on the terminal?
-if 1-0 == "10":
-    print("a")
-elif "bag" > "apple" and "bag" > "cat":
-    print("b")
-else:
-    print("c")
+# if 1-0 == "10":
+#     print("a")
+# elif "bag" > "apple" and "bag" > "cat":
+#     print("b")
+# else:
+#     print("c")
+
+#Using loops
+for number in range(3):
+    print("Attempt", number)
