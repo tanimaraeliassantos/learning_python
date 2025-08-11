@@ -184,4 +184,4 @@
 
 #Using loops
 for number in range(3):
-    print("Attempt", number)
+    print("Attempt", number + 1)
