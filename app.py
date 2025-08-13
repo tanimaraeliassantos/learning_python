@@ -237,9 +237,15 @@
 # print(f"We have {count} even numbers")
 
 # Functions
-def greet():
-    print("hi there")
-    print("Welcome")
+# def greet():
+#     print("hi there")
+#     print("Welcome")
 
 
-greet()
+# greet()
+def greet(first_name, last_name):
+    print(f"Hi {first_name} {last_name}")
+    print(("Welcome aboard"))
+
+
+greet("Tanimara", "Santos")
