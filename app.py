@@ -193,20 +193,31 @@
 #         break
 #     else:
 #         print("attempted 3 times and failed")
+
 # Loop inside a loop
 # for x in range(5):
 #     for y in range(3):
 #         print(f"({x}, {y})")
+
 #Iterables
+
 #Range objects
 # print(type(5))
 # print(type(range(5)))
 
 # for x in range(5):
 #     print(x)
+
 #String objects
 # for x in "Python":
 #     print(x)
+
 #List objects
-for x in [1, 2, 3, 4]:
-    print(x)
+# for x in [1, 2, 3, 4]:
+#     print(x)
+
+#While loops
+number = 100
+while number > 0:
+    print(number)
+    number //= 2
