@@ -241,11 +241,18 @@
 #     print("hi there")
 #     print("Welcome")
 
-
+#Functions with arguments
 # greet()
-def greet(first_name, last_name):
-    print(f"Hi {first_name} {last_name}")
-    print(("Welcome aboard"))
+# def greet(first_name, last_name):
+#     print(f"Hi {first_name} {last_name}")
+#     print(("Welcome aboard"))
 
 
-greet("Tanimara", "Santos")
+# greet("Tanimara", "Santos")
+
+#Functions that return a value
+def get_greeting(name):
+    return f"Hi {name}"
+
+message = get_greeting("Tanimara")
+print(message)
