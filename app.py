@@ -182,7 +182,7 @@
 # else:
 #     print("c")
 
-#Using loops
+# Using loops
 # for number in range(1, 10, 2):
 #     print("Attempt", number, number * ".")
 # successful = True
@@ -199,30 +199,39 @@
 #     for y in range(3):
 #         print(f"({x}, {y})")
 
-#Iterables
+# Iterables
 
-#Range objects
+# Range objects
 # print(type(5))
 # print(type(range(5)))
 
 # for x in range(5):
 #     print(x)
 
-#String objects
+# String objects
 # for x in "Python":
 #     print(x)
 
-#List objects
+# List objects
 # for x in [1, 2, 3, 4]:
 #     print(x)
 
-#While loops
+# While loops
 # number = 100
 # while number > 0:
 #     print(number)
 #     number //= 2
-while True:
-    command = input(">")
-    print("ECHO", command)
-    if command.lower() == "quit":
-        break
+# while True:
+#     command = input(">")
+#     print("ECHO", command)
+#     if command.lower() == "quit":
+#         break
+
+# Display even numbers from 1 to 10 and after print message
+# we have four even numbers
+count = 0
+for number in range(1,10):
+    if number %2 == 0:
+        count += 1
+        print(number)
+print(f"We have {count} even numbers")
