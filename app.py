@@ -205,5 +205,8 @@
 # for x in range(5):
 #     print(x)
 #String objects
-for x in "Python":
+# for x in "Python":
+#     print(x)
+#List objects
+for x in [1, 2, 3, 4]:
     print(x)
