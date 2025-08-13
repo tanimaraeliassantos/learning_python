@@ -185,11 +185,14 @@
 #Using loops
 # for number in range(1, 10, 2):
 #     print("Attempt", number, number * ".")
-successful = True
-for number in range(3):
-    print("attempt")
-    if successful:
-        print("Successful")
-        break
-    else:
-        print("attempted 3 times and failed")
+# successful = True
+# for number in range(3):
+#     print("attempt")
+#     if successful:
+#         print("Successful")
+#         break
+#     else:
+#         print("attempted 3 times and failed")
+for x in range(5):
+    for y in range(3):
+        print(f"({x}, {y})")
