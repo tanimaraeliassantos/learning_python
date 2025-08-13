@@ -251,8 +251,13 @@
 # greet("Tanimara", "Santos")
 
 #Functions that return a value
-def get_greeting(name):
-    return f"Hi {name}"
+# def get_greeting(name):
+#     return f"Hi {name}"
 
-message = get_greeting("Tanimara")
-print(message)
+# message = get_greeting("Tanimara")
+# print(message)
+
+#Functions with keyword arguments
+def increment(number, by):
+    return number + by
+print(increment(2, by=1))
