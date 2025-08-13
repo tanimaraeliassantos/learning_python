@@ -199,11 +199,11 @@
 #         print(f"({x}, {y})")
 #Iterables
 #Range objects
-print(type(5))
-print(type(range(5)))
+# print(type(5))
+# print(type(range(5)))
 
-for x in range(5):
-    print(x)
-#String objects
-# for x in "Python":
+# for x in range(5):
 #     print(x)
+#String objects
+for x in "Python":
+    print(x)
