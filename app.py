@@ -241,7 +241,7 @@
 #     print("hi there")
 #     print("Welcome")
 
-#Functions with arguments
+# Functions with arguments
 # greet()
 # def greet(first_name, last_name):
 #     print(f"Hi {first_name} {last_name}")
@@ -250,14 +250,21 @@
 
 # greet("Tanimara", "Santos")
 
-#Functions that return a value
+# Functions that return a value
 # def get_greeting(name):
 #     return f"Hi {name}"
 
 # message = get_greeting("Tanimara")
 # print(message)
 
-#Functions with keyword arguments
-def increment(number, by):
+# Functions with keyword arguments
+# def increment(number, by):
+#     return number + by
+# print(increment(2, by=1))
+
+# Default arguments
+def increment(number, by=1):
     return number + by
-print(increment(2, by=1))
+
+
+print(increment(2, 5))
